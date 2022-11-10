@@ -505,7 +505,7 @@ img {
   background-image: url("../images/manage-bgi-bottom.svg");
   background-repeat: no-repeat;
   background-size: 200px 244px;
-  background-position: calc(50% + 700px) calc(50% + 200px);
+  background-position: calc(50% + 700px) calc(50% + 191px);
 }
 
 .manage__inner {
