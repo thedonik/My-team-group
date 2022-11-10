@@ -446,7 +446,7 @@ img {
 .hero {
   padding: 56px 0 250px;
   background-color: #014e56;
-  background-image: url("../images/hero-bgi-left-min.svg"), url("../images/hero-bgi-bottom-min.svg");
+  background-image: url("../images/hero-bgi-left.svg"), url("../images/hero-bgi-bottom.svg");
   background-repeat: no-repeat;
   background-size: 200px 200px, 358px 200px;
   background-position: calc(50% - 700px) calc(50% - 100px), calc(50% + 400px) calc(50% + 220px);
@@ -502,7 +502,7 @@ img {
 .manage {
   padding: 140px 0;
   background-color: #012f34;
-  background-image: url();
+  background-image: url("");
 }
 
 .manage__inner {
@@ -558,8 +558,4 @@ img {
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.8;
-}
-
-.manage {
-  background-image: url("..");
 }/*# sourceMappingURL=main.css.map */
