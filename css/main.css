@@ -553,15 +553,15 @@ img {
 }
 
 .manage__item:nth-child(1) {
-  background-image: url("../images/Experienced-min.svg");
+  background-image: url("../images/Experienced.svg");
 }
 
 .manage__item:nth-child(2) {
-  background-image: url("../images/Easy-min.svg");
+  background-image: url("../images/Easy.svg");
 }
 
 .manage__item:nth-child(3) {
-  background-image: url("../images/Enhanced-min.svg");
+  background-image: url("../images/Enhanced.svg");
 }
 
 .manage-list__title {
