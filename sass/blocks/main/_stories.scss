@@ -1,0 +1,99 @@
+.stories {
+  padding: 140px 0 140px;
+  background-color: #004047;
+  background-image: url("../images/stories-bgi-top.svg"),
+    url("../images/stories-bgi-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 147px 100px, 200px 200px;
+  background-position: calc(50% - 650px) calc(50% - 335px),
+    calc(50% + 600px) calc(50% + 385px);
+}
+
+.stories__heading {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 932px;
+}
+
+.stories__span {
+  color: #79c8c7;
+}
+
+.stories__title {
+  margin: 0;
+  margin-bottom: 92px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.stories-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.stories__item {
+  padding-top: 36px;
+  background-image: url("../images/quotes.svg");
+  background-repeat: no-repeat;
+  background-size: 67px 56px;
+  background-position: top center;
+}
+
+.stories__item::after {
+  display: block;
+  margin: 32px auto 0;
+  width: 62px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-size: 62px 62px;
+  background-position: right;
+  content: "";
+}
+
+.stories__item:nth-child(1)::after {
+  background-image: url("../images/Kady-Baker.png");
+}
+
+.stories__item:nth-child(2)::after {
+  background-image: url("../images/Aiysha-Reese.png");
+}
+
+.stories__item:nth-child(3)::after {
+  background-image: url("../images/Arthur-Clarke.png");
+}
+
+.stories__quote {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.stories-list__title {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.stories-list__small {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
