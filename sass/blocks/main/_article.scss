@@ -1,0 +1,32 @@
+.article {
+  padding: 76px 0;
+  background-color: #f67e7e;
+  background-image: url("../images/contact-us-bgi.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% - 600px) calc(50% + 80px);
+}
+
+.article__inner {
+  width: 100%;
+  max-width: 917px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012f34;
+}
+
+.article__link {
+  color: #012f34;
+  padding: 9px 33px 11px 32px;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+}
