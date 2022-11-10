@@ -449,7 +449,7 @@ img {
   background-image: url("../images/hero-bgi-left.svg"), url("../images/hero-bgi-bottom.svg");
   background-repeat: no-repeat;
   background-size: 200px 200px, 358px 200px;
-  background-position: calc(50% - 700px) calc(50% - 100px), calc(50% + 400px) calc(50% + 220px);
+  background-position: calc(50% - 750px) calc(50% - 100px), calc(50% + 400px) calc(50% + 250px);
 }
 
 .hero__inner {
