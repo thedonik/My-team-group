@@ -1,7 +1,10 @@
 .manage {
   padding: 140px 0;
   background-color: #012f34;
-  background-image: url("");
+  background-image: url("../images/manage-bgi-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 700px) calc(50% + 200px);
 }
 
 .manage__inner {
@@ -39,6 +42,25 @@
 
 .manage__item + .manage__item {
   margin-top: 32px;
+}
+
+.manage__item {
+  padding-left: 95px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 72px 72px;
+}
+
+.manage__item:nth-child(1) {
+  background-image: url("../images/Experienced-min.svg");
+}
+
+.manage__item:nth-child(2) {
+  background-image: url("../images/Easy-min.svg");
+}
+
+.manage__item:nth-child(3) {
+  background-image: url("../images/Enhanced-min.svg");
 }
 
 .manage-list__title {
