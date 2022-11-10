@@ -481,11 +481,14 @@ img {
 }
 
 .hero__line {
-  display: inline-block;
-  margin-bottom: 79px;
-  width: 50px;
   border: 2px solid #79c8c7;
   background-color: #79c8c7;
+  margin-bottom: 79px;
+}
+
+.line {
+  display: inline-block;
+  width: 50px;
 }
 
 .hero__text {
