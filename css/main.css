@@ -725,7 +725,13 @@ img {
   border-radius: 24px;
 }
 
-<<<<<<< HEAD
+.article__link:hover {
+  background: #012f34;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+  color: #ffffff;
+}
+
 .about-hero {
   background: #014e56;
 }
@@ -763,12 +769,6 @@ img {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-=======
-.article__link:hover {
-  background: #012f34;
-  border: 2px solid #012f34;
-  border-radius: 24px;
->>>>>>> 7447b386fb9118e340d898078bce31bdb8fae25a
   color: #ffffff;
 }
 
