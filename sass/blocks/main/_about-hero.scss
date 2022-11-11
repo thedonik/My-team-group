@@ -1,0 +1,29 @@
+.about-hero {
+  background: #014E56;
+}
+
+.about-hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-hero__heading{
+  width: 100%;
+  max-width: 350px;
+}
+.about-hero__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.about-hero__desc {
+  width: 100%;
+  max-width: 730px;
+}
+.hero-line {
+}
+.line {
+}
+.about-hero__text {
+}
