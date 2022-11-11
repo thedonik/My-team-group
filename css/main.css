@@ -437,11 +437,22 @@ img {
   text-decoration: none;
 }
 
+.main-link:hover {
+  color: #f67e7e;
+}
+
 .link-contact {
   margin-left: auto;
   padding: 9px 33px 11px 32px;
   border: 2px solid #ffffff;
   border-radius: 24px;
+}
+
+.link-contact:hover {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  color: #002529;
 }
 
 .hero {
@@ -714,6 +725,13 @@ img {
   border-radius: 24px;
 }
 
+.article__link:hover {
+  background: #012f34;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+  color: #ffffff;
+}
+
 .site-footer {
   padding: 48px 0;
   background-color: #002529;
@@ -771,4 +789,8 @@ img {
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+
+.list-item__img:hover {
+  background-color: #F67E7E;
 }/*# sourceMappingURL=main.css.map */
