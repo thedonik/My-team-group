@@ -116,10 +116,10 @@
     flex-direction: column;
   }
   .footer__navbar {
-    margin: 24px auto 24px 190px;
+    margin: 24px auto 24px 0;
   }
   .navbar__list {
-    text-align: center;
+    justify-content: center;
   }
   .list-cite__list {
     margin: 0;
