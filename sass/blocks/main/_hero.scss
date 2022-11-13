@@ -55,3 +55,61 @@
   line-height: 28px;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding: 48px 0 258px;
+    background-image: url("../images/hero-bgi-bottom.svg");
+    background-size: 358px 200px;
+    background-position: calc(50%) calc(50% + 260px);
+  }
+
+  .hero__inner {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero__headline {
+    margin: 0 auto;
+    width: 397px;
+  }
+
+  .hero__title {
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  .hero__desc {
+    max-width: 460px;
+    margin: 24px auto 0;
+    text-align: center;
+  }
+  .hero__line {
+    display: none;
+  }
+  .hero__text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    padding: 32px 0 197px;
+    background-image: url("../images/hero-bgi-bottom.svg");
+    background-position: calc(50%) calc(50% + 220px);
+  }
+
+  .hero__headline {
+    width: 240px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero__desc {
+    max-width: 330px;
+    margin-top: 18px;
+  }
+}

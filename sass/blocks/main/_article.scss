@@ -37,3 +37,37 @@
   border-radius: 24px;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+  .article {
+    padding: 84px 0;
+    background-image: url("../images/contact-us-bgi.svg");
+    background-size: 200px 244px;
+    background-position: calc(50% - 284px) calc(50% + 90px);
+  }
+  .article__inner {
+    max-width: 573px;
+  }
+  .article__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .article {
+    padding: 83px 0;
+    background-image: url("../images/contact-us-bgi.svg");
+    background-size: 200px 244px;
+    background-position: calc(50% - 187px) calc(50% + 150px);
+  }
+
+  .article__inner {
+    text-align: center;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+}

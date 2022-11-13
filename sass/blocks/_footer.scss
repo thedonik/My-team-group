@@ -60,3 +60,70 @@
 .list-item__img:hover {
   background-color: #F67E7E;
 }
+
+@media only screen and (max-width: 768px) {
+  .site-footer {
+    padding: 56px 0;
+  }
+  .site-footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .site-footer__list {
+    margin-left: auto;
+    text-align: end;
+  }
+  .list-cite {
+    width: 728px;
+    margin: 0;
+    margin-top: 34px;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-cite__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .footer__navbar {
+    margin: 0 auto;
+    margin-top: 53px;
+  }
+  .footer__list-cite {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .site-footer__inner {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .site-footer__main {
+    text-align: center;
+  }
+  .site-footer__list {
+    margin-left: 0;
+    text-align: center;
+  }
+  .list-cite {
+    margin: 0;
+    display: block;
+  }
+  .footer__navbar {
+    margin: 24px auto 24px 200px;
+  }
+  .navbar__list {
+    text-align: center;
+  }
+  .list-cite__list {
+    margin: 42px auto 0 210px;
+    text-align: center;
+  }
+  .footer__list-cite {
+    text-align: center;
+    margin: 16px 190px 0 0;
+  }  
+}
