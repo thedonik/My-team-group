@@ -971,6 +971,7 @@ img {
 }
 
 .list-cite__list {
+  width: 110px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -1007,7 +1008,8 @@ img {
     text-align: end;
   }
   .list-cite {
-    width: 728px;
+    width: 100%;
+    max-width: 728px;
     margin: 0;
     margin-top: 34px;
     margin-right: auto;
@@ -1015,9 +1017,9 @@ img {
     justify-content: space-between;
   }
   .list-cite__list {
+    margin-bottom: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
   }
   .footer__navbar {
     margin: 0 auto;
@@ -1041,21 +1043,23 @@ img {
     text-align: center;
   }
   .list-cite {
-    margin: 0;
-    display: block;
+    margin: 42px auto 0;
+    align-items: center;
+    flex-direction: column;
   }
   .footer__navbar {
-    margin: 24px auto 24px 200px;
+    margin: 24px auto 24px 190px;
   }
   .navbar__list {
     text-align: center;
   }
   .list-cite__list {
-    margin: 42px auto 0 210px;
+    margin: 0;
     text-align: center;
   }
   .footer__list-cite {
     text-align: center;
-    margin: 16px 190px 0 0;
+    margin: 0;
+    margin-top: 18px;
   }
 }/*# sourceMappingURL=main.css.map */
